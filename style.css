@@ -1,0 +1,139 @@
+body {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	box-sizing: border-box;
+	font-family: 'Merriweather', serif;
+	color: #fff;
+	background-color: #495b46;
+}
+/*SIDEBAR*/
+.side_bar {
+	background-color: #334431;
+	height: 85vh;
+	position: absolute;
+	right: 0;
+	top: 10vh;
+	width: 15%;
+	text-align: center;
+	color: #fff;
+}
+.side_bar button {
+	background-color: #E05038;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.sidebar_style {
+	background-color: blue;
+	width: 40%;
+}
+.backgrounds {
+	display: flex;
+	justify-content: space-around;
+}
+.backgrounds > div {
+	width: 20%;
+	height: 50px;
+	background-size: cover;
+	margin: 15px 0;
+	cursor: pointer;
+}
+.backgrounds_border {
+	border: 3px solid #fff;
+}
+.input_container > p {
+	margin: 25px 0 10px;
+}
+
+/*NAVIGATION*/
+nav {
+	background-color: #334431;
+}
+nav::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.logo {
+	margin: 20px;
+	font-weight: bold;
+}
+.logo,
+.menu {
+	display: inline-block;
+	text-transform: uppercase;
+}
+.menu {
+	float: right;
+	margin: 20px;
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.menu ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.menu ul li a {
+	text-decoration: none;
+	padding: 20px 15px;
+	color: #fff;
+}
+.menu ul li a:hover {
+	color: #b2bfaf;
+	transition: 0.5s ease;
+}
+
+/* HEADER */
+header {
+	background-image: url('img/photo1.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: calc(100vh - 50px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero {
+	text-align: center;
+	padding-bottom: 50px;
+}
+button {
+	border: none;
+	border-radius: 5px;
+	padding: 10px 25px;
+	cursor: pointer;
+	margin: 15px;
+	font-weight: bold;
+}
+button:hover {
+	background-color: #495B46;
+	transition: 0.5s ease;
+}
+.btn_work {
+	background-color: #E05038;
+}
+.btn_contact {
+	background-color: #E6AF4B;
+}
+button a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+/*FOOTER */
+footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	min-height: 50px;
+	background-color: #334431;
+	font-weight: bold;
+}
